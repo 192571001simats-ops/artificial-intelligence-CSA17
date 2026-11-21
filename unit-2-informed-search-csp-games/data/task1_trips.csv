@@ -1,0 +1,4 @@
+method,expanded,generated,cost,optimal
+UCS,438.5,465.525,21.4,40
+GBFS,22.45,61.1,22.0,32
+A*,25.8,66.575,21.4,40

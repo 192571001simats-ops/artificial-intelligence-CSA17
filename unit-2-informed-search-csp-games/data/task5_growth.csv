@@ -1,0 +1,11 @@
+exams,method,nodes,backtracks,checks,wipeouts,capped
+10,backtrack_plain,42.4,32.4,254.0,0.0,0
+10,backtrack_mac,10.0,0.0,564.2,0.0,0
+20,backtrack_plain,313.0,293.0,2154.0,0.0,0
+20,backtrack_mac,21.2,1.2,1192.2,0.8,0
+40,backtrack_plain,4324.2,4284.2,37244.2,0.0,0
+40,backtrack_mac,40.599999999999994,0.6000000000000001,2437.8,0.6000000000000001,0
+80,backtrack_plain,200041.8,200041.8,1648302.2,0.0,5
+80,backtrack_mac,83.6,3.6,5365.2,2.0,0
+160,backtrack_plain,200045.2,200045.2,1056844.2,0.0,5
+160,backtrack_mac,160.0,0.0,9665.2,0.0,0

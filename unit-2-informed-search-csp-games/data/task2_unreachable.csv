@@ -1,0 +1,4 @@
+cells,reachable,found,moves,bound,revisits
+100,200,False,398,398,199
+400,803,False,1604,1604,802
+1600,3236,False,6470,6470,3235

@@ -1,0 +1,5 @@
+tree,value,same,mm_nodes,ab_nodes,ab_leaves,cutoffs,saved
+Best-first order,1038,True,5461,268,127,99,95.1
+Engineered no-cutoff,3276,True,5461,5461,4096,0,0.0
+Random order,1038,True,5461,1736,1134,308,68.2
+Equal leaf values,5,True,5461,268,127,99,95.1

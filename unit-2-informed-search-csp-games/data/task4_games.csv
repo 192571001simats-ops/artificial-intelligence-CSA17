@@ -1,0 +1,13 @@
+board,depth,vs_random,vs_greedy_w,vs_greedy_d,vs_greedy_l
+"5x4, connect-3",1,18,9,0,11
+"5x4, connect-3",2,18,13,0,7
+"5x4, connect-3",3,19,13,0,7
+"5x4, connect-3",4,19,13,0,7
+"6x5, connect-4",1,20,12,0,8
+"6x5, connect-4",2,20,17,3,0
+"6x5, connect-4",3,19,15,5,0
+"6x5, connect-4",4,20,15,3,2
+"7x6, connect-4",1,20,12,0,8
+"7x6, connect-4",2,20,17,2,1
+"7x6, connect-4",3,20,17,0,3
+"7x6, connect-4",4,20,16,1,3

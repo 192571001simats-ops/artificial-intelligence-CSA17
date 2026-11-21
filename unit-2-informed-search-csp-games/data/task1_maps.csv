@@ -1,0 +1,10 @@
+map,method,generated,expanded,peak,cost,steps,optimal,ms
+Open campus,UCS,833,830,31,54,54,True,1.622
+Open campus,GBFS,163,54,109,54,54,True,0.151
+Open campus,A*,163,54,109,54,54,True,0.148
+Cluttered maze,UCS,353,352,7,164,164,True,0.573
+Cluttered maze,GBFS,291,279,11,176,176,False,0.47
+Cluttered maze,A*,313,301,8,164,164,True,0.538
+Slow-zone trap,UCS,815,808,39,52,52,True,1.73
+Slow-zone trap,GBFS,139,46,93,62,46,False,0.131
+Slow-zone trap,A*,622,359,194,52,52,True,0.928
