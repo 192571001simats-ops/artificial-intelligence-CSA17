@@ -1,0 +1,31 @@
+case,note,drug,expected,verdict,ok,goals,unify,rules_fired
+T01,warfarin + NSAID,ibuprofen,interaction,UNSAFE: interaction,True,24,27,1
+T02,warfarin + aspirin,aspirin,interaction,UNSAFE: interaction,True,36,52,2
+T03,SSRI + MAOI,phenelzine,interaction,UNSAFE: interaction,True,5,6,1
+T04,SSRI + tramadol,tramadol,interaction,UNSAFE: interaction,True,10,13,1
+T05,nitrate + PDE5 inhibitor,sildenafil,interaction,UNSAFE: interaction,True,5,6,1
+T06,ACE inhibitor + K-sparing diuretic,spironolactone,interaction,UNSAFE: interaction,True,5,6,1
+T07,methotrexate + trimethoprim,cotrimoxazole,interaction,UNSAFE: interaction,True,8,9,1
+T08,statin + macrolide,clarithromycin,interaction,UNSAFE: interaction,True,5,6,1
+T09,digoxin + amiodarone,amiodarone,interaction,UNSAFE: interaction,True,5,6,1
+T10,lithium + NSAID,naproxen,interaction,UNSAFE: interaction,True,24,27,1
+T11,opioid + benzodiazepine,diazepam,interaction,UNSAFE: interaction,True,9,12,1
+T12,penicillin allergy,amoxicillin,allergy,UNSAFE: allergy,True,3,4,1
+T13,penicillin -> cephalosporin cross-reactivity,cefalexin,allergy,UNSAFE: allergy,True,3,4,1
+T14,sulfa allergy,cotrimoxazole,allergy,UNSAFE: allergy,True,7,8,1
+T15,NSAID allergy,ibuprofen,allergy,UNSAFE: allergy,True,21,22,1
+T16,NSAID in CKD,ibuprofen,condition,UNSAFE: condition,True,21,23,1
+T17,ACE inhibitor in pregnancy,lisinopril,condition,UNSAFE: condition,True,3,4,1
+T18,non-selective beta-blocker in asthma,propranolol,condition,UNSAFE: condition,True,3,4,1
+T19,NSAID with peptic ulcer,naproxen,condition,UNSAFE: condition,True,21,23,1
+T20,aspirin in a child,aspirin,age,UNSAFE: age,True,32,45,1
+T21,tetracycline in a child,doxycycline,age,UNSAFE: age,True,4,5,1
+T22,benzodiazepine in the elderly,diazepam,age,UNSAFE: age,True,8,10,1
+T23,first-generation antihistamine in the elderly,chlorphenamine,age,UNSAFE: age,True,4,6,1
+T24,two NSAIDs,naproxen,duplicate,UNSAFE: duplicate,True,24,27,1
+T25,several hazards at once,ibuprofen,interaction,UNSAFE: interaction,True,26,31,1
+T26,no hazard,paracetamol,safe,SAFE,True,0,0,0
+T27,unrelated current medicine,paracetamol,safe,SAFE,True,0,0,0
+T28,allergy to an unrelated class,amoxicillin,safe,SAFE,True,3,4,0
+T29,"SSRI, non-serotonergic analgesic",paracetamol,safe,SAFE,True,0,0,0
+T30,age 64: just below the elderly threshold,diazepam,safe,SAFE,True,8,10,0

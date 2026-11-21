@@ -1,0 +1,15 @@
+strategy,result,generated,steps,unify,proof
+sos,True,82,82,82,15
+none,True,275,275,275,16
+sos cap 50 [Authorised(mgr(E1))],False,26,26,51,0
+sos cap 100 [Authorised(mgr(E1))],False,26,26,51,0
+sos cap 200 [Authorised(mgr(E1))],False,26,26,51,0
+none cap 50 [Authorised(mgr(E1))],,53,53,64,0
+none cap 100 [Authorised(mgr(E1))],,103,103,132,0
+none cap 200 [Authorised(mgr(E1))],,201,201,305,0
+sos cap 50 [∃x Employee(x) ∧ Audited(x)],,51,51,101,0
+sos cap 100 [∃x Employee(x) ∧ Audited(x)],,101,101,201,0
+sos cap 200 [∃x Employee(x) ∧ Audited(x)],,201,201,401,0
+none cap 50 [∃x Employee(x) ∧ Audited(x)],,52,52,62,0
+none cap 100 [∃x Employee(x) ∧ Audited(x)],,102,102,121,0
+none cap 200 [∃x Employee(x) ∧ Audited(x)],,201,201,273,0

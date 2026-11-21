@@ -1,0 +1,19 @@
+n,restricted,query,answer,symbols,sentences,models,kb_evals,seconds
+2,False,"[2,1] has no pit",entailed,16,19,65536,65536,0.0112
+2,False,"[1,2] has a pit",negation entailed,16,19,65536,65536,0.0118
+2,False,"wumpus in [2,1]",neither,16,19,65536,65536,0.0116
+2,True,"[2,1] has no pit",entailed,3,2,8,8,0.0
+2,True,"[1,2] has a pit",negation entailed,3,2,8,8,0.0
+2,True,"wumpus in [2,1]",neither,3,2,8,8,0.0
+3,False,"[2,2] is safe",infeasible,36,63,68719476736,0,0.0
+3,False,"[3,1] is pit-free",infeasible,36,63,68719476736,0,0.0
+3,False,"[3,2] is pit-free",infeasible,36,63,68719476736,0,0.0
+3,True,"[2,2] is safe",entailed,12,10,4096,4096,0.0009
+3,True,"[3,1] is pit-free",negation entailed,6,5,64,64,0.0
+3,True,"[3,2] is pit-free",neither,1,0,2,2,0.0
+4,False,"[2,2] is safe",infeasible,64,161,18446744073709551616,0,0.0
+4,False,"[3,1] is pit-free",infeasible,64,161,18446744073709551616,0,0.0
+4,False,"[3,2] is pit-free",infeasible,64,161,18446744073709551616,0,0.0
+4,True,"[2,2] is safe",entailed,12,10,4096,4096,0.0008
+4,True,"[3,1] is pit-free",negation entailed,6,5,64,64,0.0
+4,True,"[3,2] is pit-free",neither,1,0,2,2,0.0

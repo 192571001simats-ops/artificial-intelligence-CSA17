@@ -1,0 +1,16 @@
+query,goal,expected,actual,ok,unify,goals
+Asha may write AI,"Eligible(Asha, AI)",True,True,True,32,30
+Asha may write DBMS,"Eligible(Asha, DBMS)",True,True,True,26,24
+Bala may write AI (68-75% with approved leave),"Eligible(Bala, AI)",True,True,True,39,35
+Dev may write AI (scholarship covers fees),"Eligible(Dev, AI)",True,True,True,33,31
+Gopi may write OS (case not upheld),"Eligible(Gopi, OS)",True,True,True,23,25
+"Bala may write DBMS (68%, no leave)","Eligible(Bala, DBMS)",False,False,True,12,9
+Chitra may write AI (failed Maths prerequisite),"Eligible(Chitra, AI)",False,False,True,25,24
+Esha may write DBMS (fees unpaid),"Eligible(Esha, DBMS)",False,False,True,24,21
+Farid may write DBMS (debarred),"Eligible(Farid, DBMS)",False,False,True,30,26
+"Asha may write CN (not enrolled, no invigilator)","Eligible(Asha, CN)",False,False,True,3,3
+Who may write AI?,"Eligible(?s, AI)","{'Dev', 'Bala', 'Asha'}","{'Dev', 'Bala', 'Asha'}",True,139,119
+Which exams may Dev write?,"Eligible(Dev, ?c)","{'OS', 'AI'}","{'OS', 'AI'}",True,67,59
+Who is in good standing?,GoodStanding(?s),"{'Asha', 'Chitra', 'Gopi', 'Dev', 'Bala', 'Esha'}","{'Gopi', 'Esha', 'Asha', 'Chitra', 'Dev', 'Bala'}",True,18,18
+Which courses are exam-ready?,ExamReady(?c),"{'DBMS', 'OS', 'AI'}","{'DBMS', 'OS', 'AI'}",True,8,6
+Who has a prerequisite missing for AI?,"MissingPrereq(?s, AI)",{'Chitra'},{'Chitra'},True,45,35

@@ -1,0 +1,8 @@
+family,size,symbols,mc_answer,mc_models,mc_seconds,res_result,res_generated,res_seconds
+pigeonhole,2,7,KB unsatisfiable,128,0.0,True,417,0.001
+pigeonhole,3,13,KB unsatisfiable,8192,0.0024,,100116,0.463
+pigeonhole,4,21,KB unsatisfiable,2097152,0.906,,100078,0.747
+wide-or,4,5,entailed,32,0.0,True,91,0.0
+wide-or,8,9,entailed,512,0.0003,True,2359,0.032
+wide-or,12,13,entailed,8192,0.0036,True,53379,5.618
+wide-or,14,15,entailed,32768,0.015,,60003,9.229

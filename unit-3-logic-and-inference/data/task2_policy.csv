@@ -1,0 +1,4 @@
+query,resolution,model_checking,input_clauses,generated,attempted,tautologies,subsumed,models
+ServerRoom,True,entailed,25,303,338,35,82,65536
+LobbyAccess,True,entailed,25,463,486,23,162,65536
+ExitsUnlocked,False,neither,25,399,434,35,211,65536

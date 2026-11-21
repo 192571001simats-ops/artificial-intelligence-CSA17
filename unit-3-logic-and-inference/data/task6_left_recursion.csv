@@ -1,0 +1,6 @@
+method,answer,goals,unify,max_depth,repeated,seconds
+naive (stopped at depth 200),False,13046,38331,201,12914,0.17619614699970043
+"depth bound 8, true query",True,9,26,2,0,0.00019508700006554136
+"depth bound 8, false query",False,374,1083,9,242,0.006078545000036684
+"memoisation (tabling), true query",True,240,547,2,108,0.003106461999777821
+"memoisation (tabling), false query",False,174,464,2,42,0.002867330999833939

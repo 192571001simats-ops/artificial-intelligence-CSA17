@@ -1,0 +1,7 @@
+facts,answer,goals,unify,rule_uses,max_depth,repeated,seconds,rule_R2
+100,True,107,158,70,5,1,0.0017803209998419334,descend from superior
+1000,True,2222,3119,1480,6,1,0.025965393999740627,descend from superior
+10000,True,13817,19355,9210,8,1,0.1578078090001327,descend from superior
+100,True,14,28,8,4,1,0.00018214900001112255,climb from employee
+1000,True,17,34,10,5,1,0.00021235399981378578,climb from employee
+10000,True,23,45,14,7,1,0.00036124000007475843,climb from employee
