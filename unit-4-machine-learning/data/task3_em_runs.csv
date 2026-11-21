@@ -1,0 +1,3 @@
+version,mean_final_ll,runs_with_ll_decrease,mean_weight_sum
+faulty,-91313.68082672035,20,3.8878333248747774e-44
+repaired,-631.3777610523039,0,0.9999999999999998

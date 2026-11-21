@@ -1,0 +1,5 @@
+model,params,support_vectors,accuracy,f1,search_seconds
+SVM linear,{'svc__C': 0.01},832,0.88,0.8297872340425532,2.650353996000149
+SVM rbf,"{'svc__C': 1, 'svc__gamma': 1}",512,0.9325,0.9039145907473309,3.4221443710000585
+Naive Bayes (alpha 1),20 bins,-,0.905,0.8698630136986301,-
+Task 2 tree (depth 4),depth chosen on validation,-,0.945,0.9191176470588235,-
