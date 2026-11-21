@@ -1,0 +1,20 @@
+t,pos,battery,phase,layer,action,reason,event,version
+0,"(0, 0)",20.0,TO_GOAL,DELIBERATIVE,N,"D follow plan (replan to (6, 3): NEEEENNEE)",,first
+1,"(0, 1)",19.0,TO_GOAL,DELIBERATIVE,E,D follow plan,,first
+2,"(1, 1)",17.5,TO_GOAL,DELIBERATIVE,E,D follow plan,,first
+3,"(2, 1)",16.0,TO_GOAL,DELIBERATIVE,E,D follow plan,,first
+4,"(3, 1)",14.5,TO_GOAL,SAFETY,S,S2 obstacle ahead: sidestep,,first
+5,"(3, 0)",13.5,TO_GOAL,DELIBERATIVE,E,"D follow plan (replan to (6, 3): EENNNE)",,first
+6,"(4, 0)",12.0,TO_GOAL,DELIBERATIVE,E,D follow plan,drifted,first
+7,"(4, 0)",10.5,RETURN,DELIBERATIVE,E,"drift detected; D follow plan (battery 10.5 < 5.0+4.0+3.0 -> RETURN; replan to (7, 0): EEE)",,first
+8,"(5, 0)",9.0,RETURN,DELIBERATIVE,E,D follow plan,,first
+9,"(6, 0)",7.5,RETURN,DELIBERATIVE,E,D follow plan,,first
+10,"(7, 0)",6.0,DONE,DELIBERATIVE,LAND,D at pad: land,landed at pad,first
+0,"(0, 0)",20.0,TO_GOAL,DELIBERATIVE,N,"D follow plan (replan to (6, 3): NEEEENNEE)",,wind_aware
+1,"(0, 1)",19.0,TO_GOAL,DELIBERATIVE,E,D follow plan,,wind_aware
+2,"(1, 1)",17.5,TO_GOAL,DELIBERATIVE,E,D follow plan,,wind_aware
+3,"(2, 1)",16.0,TO_GOAL,DELIBERATIVE,E,D follow plan,,wind_aware
+4,"(3, 1)",14.5,TO_GOAL,SAFETY,S,S2 obstacle ahead: sidestep,,wind_aware
+5,"(3, 0)",13.5,RETURN,DELIBERATIVE,W,"D follow plan (battery 13.5 < 7.5+4.5+3.0 -> RETURN; replan to (0, 0): WWW)",,wind_aware
+6,"(2, 0)",12.5,RETURN,DELIBERATIVE,W,D follow plan,drifted,wind_aware
+7,"(0, 0)",11.5,DONE,DELIBERATIVE,LAND,drift detected; D at pad: land,landed at pad,wind_aware

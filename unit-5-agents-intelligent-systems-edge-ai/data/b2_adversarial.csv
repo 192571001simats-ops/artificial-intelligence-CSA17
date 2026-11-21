@@ -1,0 +1,8 @@
+case,expected,order,specificity,priority,recency,conflict_sets
+A1 conflicting rules,dry_running,seal_failure,dry_running,dry_running,seal_failure,1
+A2 missing evidence,bearing_failure,unknown,unknown,unknown,unknown,0
+A3 rule-order dependence through chaining,motor_electrical,cavitation,motor_electrical,motor_electrical,motor_electrical,1
+A4 recency dependence,dry_running,seal_failure,dry_running,dry_running,dry_running,1
+"A4b same facts, other entry order",dry_running,seal_failure,dry_running,dry_running,seal_failure,1
+A5 two faults at once,bearing_failure,bearing_failure,bearing_failure,seal_failure,seal_failure,1
+A6 healthy pump,unknown,unknown,unknown,unknown,unknown,0

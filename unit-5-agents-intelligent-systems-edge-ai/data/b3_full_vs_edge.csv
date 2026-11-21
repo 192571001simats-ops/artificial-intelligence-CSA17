@@ -1,0 +1,3 @@
+model,size_KB,mean_ms,p95_ms,projected_edge_p95_ms,batch_throughput_per_s,accuracy,precision,recall,f1,roc_auc,pr_auc
+full RF,28964.8,15.3609,21.0901,105.451,50593,0.77,0.9681,0.6163,0.7531,0.961,0.9645
+edge model,20.7,0.0348,0.0444,0.222,773296,0.7839,0.9665,0.6427,0.772,0.9589,0.9657

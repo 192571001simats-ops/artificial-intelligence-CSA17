@@ -1,0 +1,3 @@
+id,label,before,after
+C17,seal_failure,unknown,seal_failure
+C29,dry_running,bearing_failure,dry_running

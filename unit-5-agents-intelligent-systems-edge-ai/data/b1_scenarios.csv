@@ -1,0 +1,7 @@
+scenario,outcome,steps,battery_left,safety_actions
+S1 normal flight,delivered and landed at pad,15,7.0,0
+S2 sudden obstacle,delivered and landed at pad,17,5.0,1
+S3 goal blocked (boundary),"landed at pad, parcel NOT delivered",26,15.0,4
+S4 battery exhausted by gusts (boundary),emergency landing after delivery,13,9.0,1
+S2 without safety layer,CRASH: COLLISION,5,15.0,0
+S4 without safety layer,CRASH: BATTERY EXHAUSTED,18,0.0,0

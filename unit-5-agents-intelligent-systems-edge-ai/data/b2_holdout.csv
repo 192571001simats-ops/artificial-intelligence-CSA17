@@ -1,0 +1,16 @@
+id,label,pred,fired,chain,conflicts
+C01,cavitation,cavitation,2,R1 R3,0
+C04,cavitation,unknown,0,,0
+C07,bearing_failure,unknown,0,,0
+C09,bearing_failure,bearing_failure,2,R5 R7,0
+C10,bearing_failure,bearing_failure,2,R5 R7,0
+C13,impeller_blockage,unknown,0,,0
+C14,impeller_blockage,unknown,0,,0
+C16,seal_failure,seal_failure,1,R10,0
+C17,seal_failure,unknown,0,,0
+C19,seal_failure,seal_failure,1,R10,0
+C22,motor_electrical,motor_electrical,1,R14,0
+C24,motor_electrical,motor_electrical,2,R11 R14,0
+C27,dry_running,dry_running,1,R15,0
+C29,dry_running,bearing_failure,1,R7,1
+C30,dry_running,impeller_blockage,1,R8,0
